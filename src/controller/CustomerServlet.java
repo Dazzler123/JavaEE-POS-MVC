@@ -17,7 +17,6 @@ import java.sql.SQLException;
 @WebServlet(urlPatterns = "/customer")
 public class CustomerServlet extends HttpServlet {
 
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try (Connection connection = ( (BasicDataSource) getServletContext().getAttribute("dbcp")).getConnection()){
