@@ -1,2 +1,2 @@
 # JavaEE-POS-MVC
-Complete POS application
+Complete POS application developed using JavaEE.
